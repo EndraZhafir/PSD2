@@ -10,7 +10,7 @@ while True:
     
     if x == 1:
         nama = input('Masukkan nama mahasiswa: ')
-        NIM = int(input('Masukkan NIM: '))
+        NIM = (input('Masukkan NIM: '))
         daerah = input('Masukkan daerah asal: ')
 
         list_mahasiswa.append({'Nama': nama, 'NIM': NIM, 'Daerah asal': daerah})
